@@ -11,7 +11,7 @@ if(isset($_POST['kullanici_adi'])&&isset($_POST['sifre']))//bunlar tanımlanmı�
     {
       if($kullaniciAdi=='b191210373@gmail.com'&&filter_var($kullaniciAdi, FILTER_VALIDATE_EMAIL)&&$Sifre=='123'){
       
-          include("aboutme.html");
+          include("hakkimda.html");
           
       }
       else{

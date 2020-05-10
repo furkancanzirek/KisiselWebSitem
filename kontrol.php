@@ -7,7 +7,8 @@ if(isset($_POST['kullanici_adi'])&&isset($_POST['sifre']))//bunlar tanımlanmı�
     if(empty($kullaniciAdi)|| empty($Sifre))
     {  
      
-     
+      /* Hocam header kodunu ne şekilde yazarsam yazayım localhostta çalışmasına rağman 
+      000webhost'ta çalışmadı bu nedenle yönlendirmeyi görebilmeniz için kod içeriğinde include ile yazdım */
       include("index.php");
       
     }
